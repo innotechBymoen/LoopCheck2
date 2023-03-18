@@ -27,3 +27,33 @@ while(counter <= 100) {
     // Add 2 to the counter so we only see even numbers and eventually the loop stops
     counter = counter + 2;
 }
+
+let users = [`Bob`, `Alice`, `Becky`, `Albert`, `Dave`];
+counter = 0;
+while(counter < users.length) {
+    console.log(users[counter]);
+    counter = counter + 1;
+}
+
+let players = [`Lebron James`,`Dwayne Wade`,`Steph Curry`];
+counter = 0;
+while(counter < players.length) {
+    console.log(players[counter]);
+    counter = counter + 1;
+}
+
+let points = [30,23,35];
+counter = 0;
+while(counter < players.length) {
+    console.log(`${players[counter]} has scored ${points[counter]} points`);
+    counter = counter + 1;
+}
+
+let injured = [true,false,false];
+counter = 0;
+while(counter < players.length) {
+    if(injured[counter] === false) {
+        console.log(`${players[counter]} has scored ${points[counter]} points`);
+    }
+    counter = counter + 1;
+}
